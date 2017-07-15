@@ -7,6 +7,6 @@
 */
 
 module.exports = function(req, res, next) {
-  res.send(req.query);
+  res.send(req.body);
   
 };
